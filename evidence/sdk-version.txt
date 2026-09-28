@@ -1,0 +1,4 @@
+DartNative 3.45.0-0.1.pre • channel stable • https://cdn.dartnative.com
+Framework • revision 4c1cdb074e0 (22 hours ago) • 2026-09-27 12:47:03 +0200
+Engine • hash 868544bccad64b70d0c00cfc5010440dae673b94 (revision 2baa73665c) (40 hours ago) • 2026-09-26 15:51:37.000Z
+Tools • Dart 3.12.0 (build 3.12.0-192.0.dev) • DevTools 2.55.0

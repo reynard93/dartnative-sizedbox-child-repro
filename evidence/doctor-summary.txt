@@ -1,0 +1,29 @@
+Command: dn doctor -v
+Diagnostic summary only: verbose device-discovery dumps omitted.
+Local SDK/home paths and device identifiers redacted; reported versions unchanged.
+
+[✓] DartNative (Channel stable, 3.45.0-0.1.pre, on macOS 26.5.2 25F84 darwin-arm64, locale en-SG) [1,338ms]
+    • DartNative version 3.45.0-0.1.pre on channel stable at <DARTNATIVE_SDK>
+    • Downloaded from https://cdn.dartnative.com; "dn upgrade" says when a newer version is published
+    • Framework revision 4c1cdb074e0 (22 hours ago), 2026-09-27 12:47:03 +0200
+    • Engine revision 2baa73665c
+    • Dart version 3.12.0 (build 3.12.0-192.0.dev)
+    • DevTools version 2.55.0
+    • DartNative download mirror https://cdn.dartnative.com
+    • Feature flags: enable-android, enable-ios, cli-animations, enable-native-assets, enable-lldb-debugging, enable-uiscene-migration
+[✓] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [2.5s]
+    • Android SDK at /opt/homebrew/share/android-commandlinetools
+    • Emulator version 36.5.10.0 (build_id 15081367) (CL:N/A)
+    • Platform android-36, build-tools 36.0.0
+    • Java binary at: /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment Homebrew (build 17.0.18+0)
+    • All Android licenses accepted.
+[✓] Xcode - develop for iOS and macOS (Xcode 26.6) [1,872ms]
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 17F113
+    • CocoaPods version 1.17.0
+[✓] Connected device (5 available) [7.1s]
+    • 2602BPC18G (mobile)         • <xiaomi-device-id>                     • android-arm64 • Android 16 (API 36)
+[✓] Network resources [674ms]
+    • All expected network resources are available.
+• No issues found!

@@ -1,0 +1,28 @@
+Command: dn run --profile --no-resident -d <xiaomi-device-id>
+Initial run from the prepared source-only directory, with dependencies resolved automatically.
+
+Resolving dependencies...
+Downloading packages...
++ ffi 2.2.0
++ lints 6.1.0
++ meta 1.19.0
+Changed 3 dependencies!
+Launching lib/main.dart on 2602BPC18G in profile mode...
+Running Gradle task 'assembleProfile'...                           30.6s
+✓ Built build/app/outputs/dn-apk/app-profile.apk (57.0MB)
+Installing build/app/outputs/dn-apk/app-profile.apk...
+dartnative: [DN] lifecycle → AppLifecycleState.resumed
+Installing build/app/outputs/dn-apk/app-profile.apk...           2,497ms
+dartnative: [DN-Android] loadSymbols: done
+dartnative: [DN] Licence: key exchange running in the background — provisional until it completes.
+dartnative: [DN] lifecycle → AppLifecycleState.resumed
+dartnative: [DN] lifecycle → AppLifecycleState.inactive
+dartnative: resolveSkiaCanvasBridgeMethods: DNSkiaCanvasBridge method IDs cached
+dartnative: resolveKotlinMethods: all method IDs cached
+dartnative: JNI_OnLoad: dartnative_android bridge loaded
+dartnative: [DNCoil] installed ImageLoader memCache=50% heap, 16 req/host
+dartnative: [DN-Build] dartnative_android stamp: 2026-07-20-3
+dartnative: DNResetViewRegistry: gen=1, cleared 0 stale callbacks, registry reset
+dartnative: DNResetViewRegistry: callbacks thawed, dropped 0 stale fire(s) during the restart window
+dartnative: [DNSplash] splash released after 105ms (root has views)
+dartnative: [DN] lifecycle → AppLifecycleState.paused

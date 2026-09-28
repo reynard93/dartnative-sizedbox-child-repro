@@ -1,0 +1,7 @@
+manufacturer=Xiaomi
+model=2602BPC18G
+android=16
+api=36
+abi=arm64-v8a
+Physical size: 1280x2772
+Physical density: 520

@@ -1,0 +1,6 @@
+Xiaomi, Android 16, profile-mode cold launch.
+Filtered to the reproduction markers; timestamps and marker lines unchanged.
+
+09-28 16:37:15.148  3810  3810 I dartnative: [sized-box-repro] visible=true; both rows should have a CHILD tile
+09-28 16:37:18.559  3810  3810 I dartnative: [sized-box-repro] visible=false
+09-28 16:37:22.104  3810  3810 I dartnative: [sized-box-repro] visible=true
