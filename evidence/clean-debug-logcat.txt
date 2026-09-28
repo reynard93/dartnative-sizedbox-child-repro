@@ -1,0 +1,4 @@
+Fresh-clone debug build, force-stopped and cold-launched on Xiaomi.
+Filtered to the reproduction marker; matching screenshot is clean-debug-after.png.
+
+09-28 16:44:09.559  7246  7246 I dartnative: [sized-box-repro] visible=true; both rows should have a CHILD tile

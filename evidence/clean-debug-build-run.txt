@@ -1,0 +1,18 @@
+Command: dn run --no-resident -d <xiaomi-device-id>
+Fresh local Git clone of 7b17a885340ef6f3de20b2aacbe6b7160cd51b46.
+No copied .dart_tool, build output, local.properties, Gradle executable or generated registrant.
+Progress-line trailing whitespace trimmed.
+
+Resolving dependencies...
+Downloading packages...
+Got dependencies!
+Launching lib/main.dart on 2602BPC18G in debug mode...
+Running Gradle task 'assembleDebug'...                             16.7s
+✓ Built build/app/outputs/dn-apk/app-debug.apk
+Installing build/app/outputs/dn-apk/app-debug.apk...
+dartnative: [DN] lifecycle → AppLifecycleState.resumed
+Installing build/app/outputs/dn-apk/app-debug.apk...                3.1s
+dartnative: [DN-Android] loadSymbols: done
+dartnative: [DN] Licence: key exchange running in the background — provisional until it completes.
+dartnative: [DN] lifecycle → AppLifecycleState.resumed
+dartnative: [DN] lifecycle → AppLifecycleState.inactive

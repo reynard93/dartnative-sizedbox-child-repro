@@ -11,13 +11,14 @@ With an installed DartNative SDK and a connected Android device:
 ```sh
 git clone https://github.com/reynard93/dartnative-sizedbox-child-repro.git
 cd dartnative-sizedbox-child-repro
-dn run --profile -d <android-device-id>
+dn run -d <android-device-id>
 ```
 
 Android scaffolding is included. No `dn create`, manifest edits, copied SDK
 files, app credentials or environment file is needed. `dn run` resolves the
 dependencies and generates the platform registrant and local build configuration.
 The standard DartNative installation/licensing requirements still apply.
+To repeat the mode used for the video, add `--profile`.
 
 On phones that show an installation confirmation, approve this reproduction's
 ordinary installation prompt. The package is
@@ -78,10 +79,21 @@ logs, the before screenshot and the exact SDK identity.
   `868544bccad64b70d0c00cfc5010440dae673b94`.
 - Dart `3.12.0-192.0.dev`.
 
-Reproduced on 2026-09-28 in profile mode, including a cold launch and subsequent
-manual toggles. `dn analyze --no-pub lib` reports no issues. See the saved
+Reproduced on 2026-09-28 in **debug and profile** modes. Profile verification
+includes a cold launch and subsequent manual toggles. Debug verification used
+a fresh Git clone with no copied build/cache files or generated registrant;
+the CLI generated its local setup and installed the app successfully, and a
+cold launch reproduced A blank/B visible. `lib/main.dart` was unchanged between
+the two builds (SHA-256
+`dc07fc08a0f18d4c2b09d5ecfc1e1028868016f74d6c0a7e5ea14fcec4692a56`).
+
+This is a clean-checkout check using an already installed SDK and toolchain,
+not a clean-machine installation test. `dn analyze --no-pub lib` reports no
+issues. See the saved
 [build/run output](evidence/profile-build-run.txt) and
-[analysis output](evidence/analyze.txt).
+[analysis output](evidence/analyze.txt), plus the
+[clean-clone debug output](evidence/clean-debug-build-run.txt) and
+[debug screenshot](evidence/clean-debug-after.png).
 
 Only Android is scaffolded and tested here. No iOS result is claimed. The issue
 is missing child rendering, not a crash; the reproduction logs state changes,

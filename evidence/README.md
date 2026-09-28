@@ -38,11 +38,21 @@ published. The timestamps are device-local time.
 
 - `profile-build-run.txt`: initial `dn run --profile --no-resident` output from
   the prepared source-only directory, including automatic dependency resolution.
+- `clean-debug-build-run.txt`: successful default-debug run from a fresh local
+  Git clone of source commit `7b17a885340ef6f3de20b2aacbe6b7160cd51b46`.
+  The CLI regenerated the ignored Gradle executable, local build configuration
+  and plugin registrant. No application source changes were needed.
+- `clean-debug-after.png` and `clean-debug-logcat.txt`: the subsequent debug
+  cold launch again shows A blank/B visible after the automatic reveal.
 - `analyze.txt`: successful native analysis of `lib`.
 - `sdk-version.txt` and `device.txt`: tested SDK and Android build environment.
 - `doctor-summary.txt`: the diagnostic summary from `dn doctor -v`, with local
   SDK paths and device identifiers redacted. Verbose discovery dumps and
   unrelated devices are omitted; reported versions are unchanged.
+
+CLI build/analysis progress-line trailing whitespace was trimmed. The debug
+check used an already installed SDK/toolchain, not a clean machine. There are
+no changes to `lib/main.dart` between the recorded profile run and debug check.
 
 The screenshots and one-second samples from the actual video were visually
 reviewed before publication. The full app's earlier image-cache investigation
